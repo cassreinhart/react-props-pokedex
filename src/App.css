@@ -1,0 +1,29 @@
+.Pokedex {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.Pokedex-title {
+  color: grey;
+  text-align: center;
+}
+
+.Pokedex-card {
+  text-align: center;
+}
+.Pokecard {
+  background-color: grey;
+  border: none;
+  border-radius: 5px;
+  width: 50%;
+  height: 200px;
+  margin: auto;
+}
+.Pokecard h2 {
+  color: blue;
+  text-align: center;
+}
+
+.Pokecard-details {
+  text-align: center;
+}
