@@ -1,6 +1,7 @@
 .Pokedex {
   margin: 0 20px;
   text-align: center;
+  
 }
 
 .Pokedex-title {
@@ -8,14 +9,16 @@
   text-align: center;
 }
 
-.Pokedex-card {
-  text-align: center;
+.Pokedex-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .Pokecard {
   background-color: grey;
   border: none;
   border-radius: 5px;
-  width: 50%;
+  width: 200px;
   height: 200px;
   margin: auto;
 }
